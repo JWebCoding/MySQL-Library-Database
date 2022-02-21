@@ -27,7 +27,7 @@ CREATE TABLE `language` (
   `language_name` varchar(15) NOT NULL,
   `language_suffix` varchar(3) NOT NULL,
   PRIMARY KEY (`languageID`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -36,7 +36,7 @@ CREATE TABLE `language` (
 
 LOCK TABLES `language` WRITE;
 /*!40000 ALTER TABLE `language` DISABLE KEYS */;
-INSERT INTO `language` VALUES (1,'English','en'),(2,'German','de');
+INSERT INTO `language` VALUES (1,'English','en'),(2,'German','de'),(4,'test','ts');
 /*!40000 ALTER TABLE `language` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-12-31 17:32:01
+-- Dump completed on 2022-02-20 18:34:59
